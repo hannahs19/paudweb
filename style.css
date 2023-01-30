@@ -259,7 +259,7 @@ body {
     overflow-x: hidden;
     }
     
-    body,html {
+    .bungkus{
     position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -278,10 +278,10 @@ body {
     }
     .navbar .navbar-nav {
         position: absolute;
-        top: -100px;
+        top: 100%;
         right:-100%;
         background-color: #EAFDFC;
-        height: 400vh;
+        height:400vh;
         transition: 0.3s;
     }
 
