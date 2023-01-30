@@ -256,6 +256,7 @@ body {
 @media (max-width: 758px) {
     html{
     font-size: 62.5%;
+    overflow: hidden;
     }
 
     .bungkus{
