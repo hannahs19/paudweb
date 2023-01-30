@@ -258,14 +258,15 @@ body {
     font-size: 62.5%;
     overflow-x: hidden;
     }
-
-    .bungkus{
+    
+    body,html {
     position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
     width: 100%;
     height: 900vh;
     }
+
 
     #menu{
         display: inline-block;
@@ -277,7 +278,7 @@ body {
     }
     .navbar .navbar-nav {
         position: absolute;
-        top:5%;
+        top:-10%;
         right:-100%;
         background-color: #EAFDFC;
         height: 100%;
