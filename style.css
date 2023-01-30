@@ -278,10 +278,10 @@ body {
     }
     .navbar .navbar-nav {
         position: absolute;
-        top: -8%;
+        top: -100px;
         right:-100%;
         background-color: #EAFDFC;
-        height: 800vh;
+        height: 400vh;
         transition: 0.3s;
     }
 
