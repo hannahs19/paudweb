@@ -134,6 +134,22 @@ body {
     
  }
 
+.about {
+    margin: 5% 16%;
+    text-align: justify;
+    font-family: 'Poppins',sans-serif;
+    font-size: 13px;
+    color:#3C4048;
+    font-weight: bold;
+    background-color: #678983;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 30px;
+}
+
 .visimisi {
     display: flex;
     text-align: center;
@@ -281,6 +297,10 @@ body {
         font-size: 25px;
     }
 
+    .about {
+        font-size: 8px ;
+        padding: 5%;
+    }
     .visimisi {
         flex-wrap: wrap;
         margin-right: 15%;
