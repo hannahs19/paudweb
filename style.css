@@ -258,9 +258,10 @@ body {
     font-size: 62.5%;
     }
 
-    body,html {
-    overflow-wrap: hidden;
+    body {
+    overflow-x: hidden;
     position: relative;
+    width: 100%;
     }
 
     #menu{
