@@ -219,6 +219,30 @@ body {
     padding:7%;
 }
 
+.atas{
+    display: flex;
+    justify-content: space-between;
+    margin:10% 14%;
+}
+
+.atas h4 {
+    font-family:'Poppins',sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color:#393E46;
+}
+
+.kanan i {
+    color:#393E46;
+}
+
+.struktur img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 42rem;
+    height: 40rem;
+}
 /* media queries */
 
 /* laptop */
@@ -232,17 +256,13 @@ body {
 @media (max-width: 758px) {
     html{
     font-size: 62.5%;
-    overflow-x: hidden;
     }
 
-    .bungkus{
-        overflow-x: hidden;
-        position: relative;
-        width: 100%;
-    }
 
 
     #menu{
+        overflow-x: hidden;
+        position: relative;
         display: inline-block;
     }
     
@@ -328,6 +348,15 @@ body {
     }
     .misi p {
         font-size: 10px;
+    }
+   
+    .struktur img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 35rem;
+        height: 30rem;
+
     }
 }
 /* mobile phone */
