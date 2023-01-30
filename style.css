@@ -260,11 +260,9 @@ body {
     }
     
     .bungkus{
-    position: relative;
     overflow-x: hidden;
-    overflow-y: hidden;
+    position: relative;
     width: 100%;
-    height: 900vh;
     }
 
 
@@ -278,10 +276,10 @@ body {
     }
     .navbar .navbar-nav {
         position: absolute;
-        top: 60px;
+        margin-top: -8%;
         right:-100%;
         background-color: #EAFDFC;
-        height: 600px;
+        height: 100vh;
         transition: 0.3s;
     }
 
