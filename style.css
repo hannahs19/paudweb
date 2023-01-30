@@ -150,6 +150,10 @@ body {
     padding: 30px;
 }
 
+#paud {
+    color: #181D31;
+}
+
 .visimisi {
     display: flex;
     text-align: center;
@@ -311,6 +315,7 @@ body {
     width: 60rem;
     }
     
+
     .visi p {
         font-size: 10px;
     }
