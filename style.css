@@ -278,7 +278,7 @@ body {
     }
     .navbar .navbar-nav {
         position: absolute;
-        margin-top: -10%;
+        top: 0px;
         right:-100%;
         background-color: #EAFDFC;
         height: 100%;
