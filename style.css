@@ -258,12 +258,12 @@ body {
     font-size: 62.5%;
     }
 
-    body{
+    .bungkus{
     position: relative;
+    overflow: hidden;
+    height: 900vh;
     }
-    .navbar{
-        overflow-x: hidden;
-    }
+
     #menu{
         display: inline-block;
     }
@@ -274,10 +274,10 @@ body {
     }
     .navbar .navbar-nav {
         position: absolute;
-        margin-top:-8%;
+        top:5%;
         right:-100%;
         background-color: #EAFDFC;
-        height: 95vh;
+        height: 100%;
         transition: 0.3s;
     }
 
