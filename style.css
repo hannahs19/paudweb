@@ -258,11 +258,12 @@ body {
     font-size: 62.5%;
     }
 
-
+    body,html {
+    overflow-wrap: hidden;
+    position: relative;
+    }
 
     #menu{
-        overflow-x: hidden;
-        position: relative;
         display: inline-block;
     }
     
