@@ -276,9 +276,10 @@ body {
     }
     .navbar .navbar-nav {
         position: absolute;
-        margin-top: 10px;
+        top: 50px;
         right:-100%;
         background-color: #EAFDFC;
+        height: 400px;
         transition: 0.3s;
     }
 
