@@ -295,10 +295,9 @@ body {
     .navbar .navbar-nav a {
         display: block;
         width: 250px;
-        margin : 2rem;
-        padding: 1rem;
-        font-size: 1.5rem;
-        
+        margin :10px;
+        padding: 10px;
+        font-size: 15px;  
     }
 
     #home {
@@ -370,7 +369,7 @@ body {
     font-size: 55%; 
     }
 
-    .navbar .navbar-nav {
+    .navbar-nav {
         position: absolute;
         margin-top: 10px;
         right:-100%;
@@ -380,5 +379,13 @@ body {
 
     .navbar-nav.active {
         right: 0;
+    }
+
+    .navbar .navbar-nav a {
+        display: block;
+        width: 250px;
+        margin :10px;
+        padding: 10px;
+        font-size: 15px;  
     }
 }
