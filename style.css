@@ -367,7 +367,18 @@ body {
 
 @media (max-width: 450px) {
     html{
-    font-size: 55%;
-    
+    font-size: 55%; 
+    }
+
+    .navbar .navbar-nav {
+        position: absolute;
+        top: 50px;
+        right:-100%;
+        background-color: #EAFDFC;
+        transition: 0.3s;
+    }
+
+    .navbar-nav.active {
+        right: 0;
     }
 }
